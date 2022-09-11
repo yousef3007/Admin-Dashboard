@@ -1,0 +1,11 @@
+.list {
+  display: flex;
+  width: 100%;
+  .listContainer {
+    flex: 6;
+    .data{
+      background-color: rgb(226, 225, 225);
+      color: red;
+    }
+  }
+}
