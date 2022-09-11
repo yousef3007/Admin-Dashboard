@@ -14,10 +14,10 @@ const Featured = () => {
       </div>
       <div className="bottom">
         <div className="featuredChart">
-          <CircularProgressbar value={70} text={"70%"} strokeWidth={5} />
+          <CircularProgressbar value={60} text={"60%"} strokeWidth={10} />
         </div>
         <p className="title">Total sales made today</p>
-        <p className="amount">$420</p>
+        <p className="amount">$520</p>
         <p className="desc">
           Previous transactions processing. Last payments may not be included.
         </p>
